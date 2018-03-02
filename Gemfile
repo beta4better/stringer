@@ -4,7 +4,6 @@ source "https://rubygems.org"
 
 group :production do
   gem "pg", "~> 0.18.4"
-  gem "unicorn", "~> 4.7"
 end
 
 group :development do
@@ -46,4 +45,5 @@ gem "sprockets", "~> 3.0"
 gem "sprockets-helpers"
 gem "thread", "~> 0.2"
 gem "uglifier"
+gem "unicorn", "~> 5.4.0"
 gem "will_paginate", "~> 3.1"
